@@ -1,0 +1,119 @@
+.thread{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+    height: 100vh;
+}
+
+
+.thread-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e6edef;
+    padding: 8px 0 4px 12px;
+    background-color: white;
+}
+
+.threadHeader-night{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0 4px 12px;
+    background-color: #202020;
+}
+
+.thread-header-info h4, h5{
+    margin: 0;
+    padding: 2px;
+}
+
+.threadHeaderInfo-night h4{
+    margin: 0;
+    padding: 2px;
+    color: #eeeeee;
+}
+
+.threadHeaderInfo-night h5{
+    margin: 0;
+    padding: 2px;
+    color: #A0A0A0;
+}
+
+.thread-header-info h5, .header-icons{
+    color: #A0A0A0;
+}
+
+.thread-message{
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    flex: 1;
+    background-color: #d8f2ff;
+}
+
+.threadMessage-night{
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    flex: 1;
+    background-color: #161616;
+}
+
+.thread-message::-webkit-scrollbar{
+    display: none;
+    flex: 1;
+}
+
+.thread-input{
+    padding: 10px 12px;
+    background-color: white;
+    border-top: 1px solid #e6edef;
+}
+
+.threadInput-night input{
+    background-color: #202020;
+    color: white;
+}
+
+.threadInput-night{
+    padding: 10px 12px;
+    background-color: #202020;
+}
+
+
+.threadInput-night form, .thread-input form{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thread-input input, .threadInput-night input{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.thread-input-left, .threadInput-night{
+    display: flex;
+    align-items: center;
+}
+
+.thread-input-leftIcon{
+    transform: rotate(45deg);
+    color: #A0A0A0;
+    cursor: pointer;
+}
+
+
+.threadInputRight-night{
+    color: #A0A0A0;
+}
+
+
+ @media screen and (max-width: 768px) {
+    .thread {
+        display: none;
+    }
+} 

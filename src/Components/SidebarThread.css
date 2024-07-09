@@ -1,0 +1,62 @@
+.sidebarThread, .sidebarThread-night{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebarThread:hover{
+    background-color: #e6e9ef;
+}
+
+.sidebarThread-night:hover{
+    background-color: #2a2a2a;
+}
+
+
+.sidebarThread-details{
+    margin-left: 10px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.sidebarThread-timeStamp{
+    color: #A0A0A0;
+} 
+
+
+.details-top, .details-bottom, .detailsTop-night{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.detailsTop-night h3{
+    color: #eeeeee;
+}
+
+h3{
+    margin: 0;
+}
+
+.sidebarThread-details p{
+    margin: 0;
+    color: #A0A0A0;
+}
+
+
+.unread{
+    border-radius: 50%;
+    background-color: #19AEF3;
+    height: 20px;
+    width: 20px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
